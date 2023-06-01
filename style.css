@@ -16,7 +16,28 @@ body{
     box-shadow: 3px 3px rgb(178, 130, 116) ;
 }
 
-#sobre-mim{
+#intro{
     font-weight: bolder;
     font-size: 18px;
 }
+
+#minha-foto{
+    width: 200px;
+    float: left;
+    position: relative;
+    box-shadow: 3px 3px rgb(178, 130, 116) ;
+    margin-top: 20px;
+    margin-right: 20px;
+    z-index: 2;
+}
+
+.descricao-texto{
+    box-shadow: 3px 3px rgb(178, 130, 116);
+    position: relative;
+    z-index: 1;
+    top: 20px;
+    width: 90%;
+    padding-bottom: 10px;
+
+}
+
