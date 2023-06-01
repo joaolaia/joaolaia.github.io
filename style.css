@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: rgb(209, 189, 182);
+}
+
+.titulo{
+    text-align: center;
+    line-height: 30px;
+    background-color: rgba(170, 169, 165);
+    text-shadow: 2px 2px rgb(178, 130, 116);
+    position: relative;
+    width: 50%; 
+    left: 25%;
+    box-shadow: 3px 3px rgb(178, 130, 116) ;
+}
+
+#sobre-mim{
+    font-weight: bolder;
+    font-size: 18px;
+}
