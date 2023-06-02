@@ -1,0 +1,68 @@
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: rgb(209, 189, 182);
+}
+
+.titulo{
+    text-align: center;
+    line-height: 30px;
+    background-color: rgba(170, 169, 165);
+    text-shadow: 2px 2px rgb(178, 130, 116);
+    position: relative;
+    width: 50%; 
+    left: 25%;
+    box-shadow: 3px 3px rgb(178, 130, 116) ;
+}
+
+.subtitulo{
+    font-weight: bolder;
+    font-size: 18px;
+    text-shadow: 2px 2px rgb(170, 169, 165)
+}
+
+#minha-foto{
+    width: 200px;
+    float: left;
+    position: relative;
+    box-shadow: 3px 3px rgb(178, 130, 116) ;
+    margin-top: 20px;
+    margin-right: 20px;
+    z-index: 3;
+}
+
+.descricao-texto{
+    box-shadow: 3px 3px rgb(178, 130, 116);
+    position: relative;
+    z-index: 2;
+    top: 20px;
+    width: 90%;
+    padding-bottom: 10px;
+}
+
+.habilidades{
+    box-shadow: 3px 3px rgb(178, 130, 116);
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    padding-bottom: 20px;
+
+}
+
+.texto-habilidade{
+    position: relative;
+    top: 20px;
+}
+
+ul li{
+    list-style: none;
+}
+
+.item1{
+    background-color: rgba(178, 130, 116, 0.6);
+}
+
+.item2{
+    background-color: rgba(170, 169, 165, 0.6);
+}
