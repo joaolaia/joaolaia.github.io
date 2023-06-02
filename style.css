@@ -16,9 +16,10 @@ body{
     box-shadow: 3px 3px rgb(178, 130, 116) ;
 }
 
-#intro{
+.subtitulo{
     font-weight: bolder;
     font-size: 18px;
+    text-shadow: 2px 2px rgb(170, 169, 165)
 }
 
 #minha-foto{
@@ -28,16 +29,44 @@ body{
     box-shadow: 3px 3px rgb(178, 130, 116) ;
     margin-top: 20px;
     margin-right: 20px;
-    z-index: 2;
+    z-index: 3;
 }
 
 .descricao-texto{
     box-shadow: 3px 3px rgb(178, 130, 116);
     position: relative;
-    z-index: 1;
+    z-index: 2;
     top: 20px;
     width: 90%;
     padding-bottom: 10px;
+}
+
+.habilidades{
+    box-shadow: 3px 3px rgb(178, 130, 116);
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    padding-bottom: 20px;
 
 }
 
+.texto-habilidade{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+ul li{
+    list-style: disc;
+}
+
+li:nth-of-type(even){
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(170, 169, 165);
+    
+}
+
+li:nth-of-type(odd){
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(178, 130, 116);
+}
