@@ -53,20 +53,17 @@ body{
 .texto-habilidade{
     position: relative;
     top: 20px;
-    left: 20px;
 }
 
 ul li{
-    list-style: disc;
+    list-style: none;
+    font-weight: bold;
 }
 
-li:nth-of-type(even){
-    font-weight: bold;
-    text-shadow: 2px 2px rgb(170, 169, 165);
-    
+.item1{
+    background-color: rgba(178, 130, 116, 0.6);
 }
 
-li:nth-of-type(odd){
-    font-weight: bold;
-    text-shadow: 2px 2px rgb(178, 130, 116);
+.item2{
+    background-color: rgba(170, 169, 165, 0.6);
 }
